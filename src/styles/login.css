@@ -1,0 +1,188 @@
+.login_page{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Error_msg{
+    color: red;
+    margin-top: -23px;
+    display: none;
+}
+
+.login_form{
+    padding: 0px 50px;
+}
+
+.login_form h2 {
+    padding-top: 15%!important;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    color: #222;
+    font-family: Poppins;
+    font-size: 30px;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.login_form label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    color: #222;
+}
+
+.material-icons-name {
+    font-size: 18px;
+    color: rgb(96, 143, 243);
+    border: none!important;
+}
+
+.zmdi {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.login_form input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+    background-color: #fff!important;
+}
+
+
+.login_form .mdi-account{
+    font-size: 20px;
+}
+.login_form .mdi-key-variant{
+    font-size: 18px;
+}
+
+.login_form .login_button{
+    height: 45px;
+    width: 100%;
+    background-color: #e86229;
+    color: #fff;
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+} 
+
+.OR_sec{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.Request_button{
+    min-height: 45px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #0080f8;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none!important;
+    font-weight: 500;
+}
+
+
+
+.login_form .privacy{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.signuptitle{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #424242;
+}
+.signuptitle span{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #6dabe4;
+}
+
+
+
+.login_with{
+    display: flex;
+    margin-top: 20px;
+}
+.login_with h6{
+    font-size: 16px;
+}
+.login_with i{
+    margin-left: 20px;
+}
+
+.login_with .fa-facebook-f{
+    background-color: #425a9f;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.login_with .fa-google{
+    background-color: #e62e34;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .login_page{
+        margin-top: 30px;
+    }
+    .login_form{
+        padding: 0px 30px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .login_form{
+        padding: 0px 20px;
+    }
+}

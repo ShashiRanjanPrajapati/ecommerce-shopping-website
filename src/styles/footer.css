@@ -1,0 +1,151 @@
+.footer_section{
+    background-color: #396ed4;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-logo {
+    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .footer-about p {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+
+
+  .footer-socialmedia {
+    margin: 150px 0;
+  }
+  
+  .footer-socialmedia a {
+    margin: 0 10px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #396ed4;
+  }
+
+
+  .download-app p {
+    color: #fff;
+    padding-top: 120px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .playstore_img {
+      height: 40px;
+  }
+  .download-app-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .download-app-icon {
+    height: 40px;
+    margin-left: 10px;
+  }
+
+
+
+
+  .company_info{
+      padding: 10px;
+      text-align: center;
+      background-color: #396ed4;
+  }
+
+  .company_info a{
+      text-decoration: none;
+      font-weight: 400
+  }
+  .company_info p{
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .footer-about{
+      border-bottom: 1px solid #fff;
+    }
+    .footer-socialmedia {
+      margin: 30px 0;
+    }
+    .social_media{
+      border-bottom: 1px solid #fff;
+    }
+    
+    .download-app p {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    .download-app-wrap{
+      padding-bottom: 20px;
+    }
+    .download-app-wrap{
+      display: grid;
+      align-items: center;
+      justify-content: flex-start!important;
+      margin-left: 60px;
+    }
+    
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+      .appstore_img{
+        width: 117px;
+      }
+      .playstore_img{
+        height: 35px;
+      }
+      .download-app-wrap{
+        display: grid;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .footer-socialmedia a {
+        margin: 5px 10px;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 7px;
+        font-size: 20px;
+        color: #396ed4;
+      }
+  }

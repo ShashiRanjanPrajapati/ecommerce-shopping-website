@@ -1,0 +1,40 @@
+.order_section{
+    background-color: #fff;
+}
+.order_section h6{
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 20px;
+}
+.order_card{
+    padding-left: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.order_card img{
+    height: 60px;
+    width: 120px;
+}
+
+.product_desc p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product_price p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.delivery_detail p{
+    line-height: 10px;
+}
+.Ddate{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Dmsg{
+    font-size: 12px;
+}

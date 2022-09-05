@@ -1,0 +1,168 @@
+.review_title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-family: Helvetica Neue;
+    font-weight: 700;
+    color: #1f1f20;
+}
+
+.review_section img{
+    height: 70px!important;
+    width: 70px!important;
+    margin: auto;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.review_section h6{
+    padding-top: 15px;
+    font-size: 23px;
+    color: #2b2c2e;
+    font-weight: 700;
+    font-family: Roboto;
+}
+
+.review .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+
+.review .owl-dots{
+    display: none;
+}
+
+.review .owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+  }
+
+  .review .owl-theme .owl-dots .owl-dot.active span,
+  .review .owl-theme .owl-dots .owl-dot:hover span {
+    background: #beb5d3;
+  }
+
+
+  .review .owl-carousel .item {
+    text-align: center;
+  }
+
+  .review .owl-carousel .nav-button {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 30px!important;
+    position: absolute;
+    top: 25px !important;
+    -webkit-border-radius: 30px!important;
+    -moz-border-radius: 30px!important;
+    -ms-border-radius: 30px!important;
+    -o-border-radius: 30px!important;
+}
+
+.review .owl-carousel .owl-prev.disabled,
+.review  .owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.25;
+  }
+
+  .review .owl-carousel .owl-prev {
+    left: -5px;
+  }
+
+  .review .owl-carousel .owl-next {
+    right: -5px;
+  }
+
+  .review .owl-theme .owl-nav [class*=owl-] {
+    color: #ffffff!important;
+    font-size: 30px!important;
+    border-radius: 3px;
+    line-height: 14px;
+    background-color: #396ed4!important;
+  }
+
+  .review .owl-carousel .prev-carousel {
+    background-position: 0px -53px;
+  }
+
+  .review .owl-carousel .next-carousel:hover {
+    background-position: -24px -53px;
+  } 
+
+
+
+
+
+  /* playstore css */
+  .playstore{
+      background-color: #94b0e5;
+  }
+
+.playstore h3{
+    font-family: Josefin Sans;
+    font-size: 35px;
+    color: #000;
+    font-weight: 550;
+}
+
+.order_sec{
+  padding: 50px;
+}
+
+.playstore p{
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.apple{
+    height: 200px;
+    width: 180px;
+    float: right;
+}
+.play{
+    margin-top: -60px;
+    height: 55px;
+    width: 180px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .playstore h3{
+    font-size: 28px;
+  }
+  .order_sec{
+    padding: 30px;
+  }
+  .apple{
+    float: left;
+    margin-top: -50px;
+    margin-left: 20px;
+  }
+  .play{
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .playstore h3{
+    font-size: 26px;
+  }
+}

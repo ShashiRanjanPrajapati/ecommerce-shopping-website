@@ -1,0 +1,115 @@
+.signup_page{
+    margin-top: 100px;
+}
+
+
+.signup{
+    padding: 0px 30px;
+}
+
+.signup h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.Errormsg{
+    color: red;
+    display: none;
+}
+.signup input{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    outline: none;
+}
+.signup textarea{
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    outline: none;
+}
+.signup select{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    outline: none;
+    font-size: 14px;
+    color: #5d5d69;
+}
+
+.signup input::placeholder{
+    font-size: 14px;
+}
+.signup textarea::placeholder{
+    font-size: 14px;
+}
+.signup input:focus{
+    border: 1px solid #6f6fff;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+}
+
+.signup textarea:focus{
+    border: 1px solid #6f6fff;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+}
+
+.signup input[type=radio]{
+    height: 15px;
+    width: 15px;
+}
+
+
+.signup .save_btn{
+    padding: 8px 50px;
+    background-color: #6f6fff;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    outline: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    float: left;
+}
+
+.signup .cancle_btn{
+    padding: 8px 30px;
+    background-color: #fa5656;
+    border: none;
+    color: #fff;
+    float: left;
+    margin-left: 30px;
+    font-weight: 600;
+    border-radius: 2px;
+    outline: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .login_form{
+        padding: 0px 0px;
+    }
+}

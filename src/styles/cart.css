@@ -1,0 +1,139 @@
+.Cart{
+    margin-top: 100px;
+}
+
+.cart_section h6{
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 20px; 
+}
+
+
+
+.product__section{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+}
+
+.select{
+    width: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+
+}
+.select input[type=checkbox]{
+   border: 1px solid #e1e1e1;
+   outline: none;
+   height: 15px;
+   width: 15px;
+}
+
+.product__image{
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    margin-left: 20px;
+}
+.product__image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.product__image select{
+    width: 100px;
+    margin-left: 30px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.product_desc h5{
+    font-size: 16px;
+}
+.product_desc .stock{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #175c02;
+}
+.other_action a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.other_action{
+    display: flex;
+}
+.other_action .heart{
+    margin-top: -8px;
+    margin-left: 30px;
+    border-left: 1px solid #e1e1e1;
+}
+.other_action .wishlist{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.delivery_detail p{
+    padding-top: 12px;
+    text-align: end;
+    font-weight: 400;
+    font-size: 15px;
+}
+.delivery_detail h2{
+    font-weight: 400;
+    font-size: 13px;
+    text-align: end;
+}
+
+.price-heading{
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.price-card-section{
+    height: 300px;
+    position: sticky;
+    top: 80px;
+}
+.price-card-section .buy-item-price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+.price-card-section .buy-item-price .price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.price-card-section .buy-item-price .total-amount{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px dotted #dadada;
+    border-bottom: 1px dotted #dadada;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.price-card-section .buy-item-price button{
+    padding: 8px 30px;
+    background-color: red;
+    border: none;
+    color:#fff;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
